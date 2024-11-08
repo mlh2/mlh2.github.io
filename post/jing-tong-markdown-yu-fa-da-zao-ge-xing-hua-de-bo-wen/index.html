@@ -1,0 +1,183 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    
+<meta charset="utf-8" >
+
+<title>精通Markdown语法，打造个性化的博文！?️? | Gridea</title>
+<meta name="description" content="温故而知新">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="http://sunloss.com/favicon.ico?v=1731052085554">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="http://sunloss.com/styles/main.css">
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/highlight.min.js"></script>
+
+
+
+  </head>
+  <body>
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="http://sunloss.com">
+        <img class="avatar" src="http://sunloss.com/images/avatar.png?v=1731052085554" alt="" width="32px" height="32px">
+      </a>
+      <a href="http://sunloss.com">
+        <h1 class="site-title">Gridea</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
+  </div>
+</div>
+
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
+        
+          <a href="/" class="menu purple-link">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="menu purple-link">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="menu purple-link">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="menu purple-link">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
+
+
+      <div class="content-container">
+        <div class="post-detail">
+          
+          <h2 class="post-title">精通Markdown语法，打造个性化的博文！?️?</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2024-10-30</span>
+            
+          </div>
+          <div class="post-content" v-pre>
+            <p>大家好！今天我要和大家分享一个超级有用的技能——Markdown语法。如果你想让你的博文看起来更漂亮、更专业，那么学习和掌握Markdown语法将是你的不二选择！在这篇文章中，我将带你深入了解Markdown语法的精髓，并分享一些我个人喜欢的技巧和小窍门。快来和我一起进入Markdown的奇妙世界吧！?</p>
+<h3 id="标题和字体样式">标题和字体样式</h3>
+<p>让我们从基础开始。在Markdown中，你可以通过添加特定的符号来定义不同级别的标题。例如，使用一个或多个#符号表示标题的级别。而要给你的文字添加粗体、斜体或删除线等样式，只需使用一些简单的符号就能实现！?</p>
+<p>下面是一些示例代码：</p>
+<pre><code class="language-markdown"># 一级标题
+## 二级标题
+### 三级标题
+
+**粗体文本**
+*斜体文本*
+~~删除线~~
+</code></pre>
+<p>看起来是不是很简单呢？赶紧试试吧！下面是一个示例图，让你更好地了解Markdown的标题和字体样式。</p>
+<figure data-type="image" tabindex="1"><img src="https://blog.mlho.net/usr/uploads/2024/05/48891095.webp" alt="标题和字体样式" loading="lazy"></figure>
+<h3 id="列表和任务清单">列表和任务清单</h3>
+<p>列表和任务清单是写博文时的常用元素，Markdown也提供了简洁明了的语法来创建它们。无论是使用有序列表还是无序列表，只需几个简单的符号就能让你的内容更加整齐有序。同时，你还可以添加待办事项列表，让你的读者更好地跟踪进度。?</p>
+<p>这里是一些示例代码：</p>
+<pre><code class="language-markdown">- 无序列表项1
+- 无序列表项2
+- 无序列表项3
+
+1. 有序列表项1
+2. 有序列表项2
+3. 有序列表项3
+
+- [ ] 未完成任务1
+- [x] 已完成任务2
+</code></pre>
+<p>如此简单，是不是很方便？下面是一个列表和任务清单的示例图片，帮助你更好地理解Markdown的使用。</p>
+<figure data-type="image" tabindex="2"><img src="https://blog.mlho.net/usr/uploads/2024/05/2994793153.webp" alt="列表和任务清单" loading="lazy"></figure>
+<h3 id="链接和图片插入">链接和图片插入</h3>
+<p>在博文中添加链接和插入图片是让你的内容更加生动和丰富的方式之一。Markdown提供了便捷的方式来实现这一点。无论是插入外部链接、内部链接还是添加本地图片，只需简单的语法即可搞定！??️</p>
+<p>下面是一些示例代码：</p>
+<pre><code class="language-markdown">[点击这里访问我的博客](https://blog.mlho.net)
+
+![图片描述](https://blog.mlho.net/favicon.ico)
+</code></pre>
+<p>嗯，就是这么简单！下面是一个示例图，展示了如何在Markdown中添加链接和插入图片。</p>
+<figure data-type="image" tabindex="3"><img src="https://blog.mlho.net/favicon.ico" alt="链接和图片插入" loading="lazy"></figure>
+<p>哇，学习Markdown语法真的很有趣且有用！这里只是提到了一些基本的语法，Markdown还有更多高级用法等待你的探索。希望这篇博文能帮助你打造个性化的博文，并让你在写作的路上越走越远！如果你有任何问题或分享，欢迎在评论区与我交流。记得点赞和转发哦！加油，我们下次见！✨?</p>
+
+          </div>
+        </div>
+
+        
+          <div class="next-post">
+            <a class="purple-link" href="http://sunloss.com/post/hello-gridea/">
+              <h3 class="post-title">
+                下一篇：Hello Gridea
+              </h3>
+            </a>
+          </div>
+          
+      </div>
+
+      
+
+      <div class="site-footer">
+  <div class="slogan">温故而知新</div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="http://sunloss.com/atom.xml" target="_blank">RSS</a>
+</div>
+
+
+    </div>
+    <script type="application/javascript">
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+  </body>
+</html>
